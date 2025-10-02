@@ -7,7 +7,7 @@ use zed_extension_api::{
 };
 
 const PACKAGE_NAME: &str = "figma-developer-mcp";
-const SERVER_PATH: &str = "node_modules/figma-developer-mcp/dist/index.js";
+const SERVER_PATH: &str = "node_modules/figma-developer-mcp/dist/bin.js";
 
 #[derive(Debug, Deserialize, JsonSchema)]
 struct FigmaContextServerSettings {
